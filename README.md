@@ -6,12 +6,13 @@
 # Github : "https://github.com/Faizcasm"
 
 Git Repo Clone : git clone 
-Backend Node js Run commands : cd Ecom App 
-                               cd client
-                               npm run dev
+
+Backend Node js Run commands : cd Ecom App  cd server  npm start
+                            
+    
 
 Frontend React js : cd Ecom App
-                    cd server
-                    npm start
+                    cd client
+                    npm run dev
 
 # The Full Stack App
