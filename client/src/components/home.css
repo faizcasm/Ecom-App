@@ -1,0 +1,370 @@
+.nav-container{
+    width: 100%;
+    height: 70px;
+    background-color: aliceblue;
+    position: fixed;
+    color: black;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -8px;
+    border-bottom: 2px red solid;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+h3{
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logout{
+    cursor: pointer;
+}
+.signup{
+    margin-left: 39%;
+    width: 20%;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px blue solid;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+h1{
+    font-size: large;
+}
+.nav-container a{
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pay{
+    width: 100%;
+    height: 600px;
+    background-image: url(../assets//payment.gif);
+    background-size: 100% 100%;
+    color: black;
+ text-align: center;
+}
+#pay{
+    margin-top: 550px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+}
+.nav-container a:hover{
+    background-color: blueviolet;
+    border-radius: 5px ;
+}
+.footer-container{
+    width: 100%;
+    height: 180px;
+    margin-bottom: -100px;
+    background-color: aliceblue;
+    color: black;
+    border-top: 2px red solid;
+    border-bottom: 4px red solid;
+    /* list-style-type: none; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    align-items: center;
+    /* margin-top: 40px; */
+    text-align: center;
+}
+.social-links a{
+    color: blue;
+    text-decoration: none;
+    
+}
+body{
+    background-color: white;
+}
+.home-hero{
+        width: 80%;
+        height: 800px;
+        background-size: 100% 100%;
+        background-image: url(../assets/realhomme.gif);
+        color: black;
+        margin-top: 40px;
+        margin-left: 10%;
+     text-align: center;
+}
+.home{
+    background-color: white;
+}
+
+.form{
+    width: 100%;
+    height: 550px;
+    margin-top: 60px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.instagram{
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+}
+#dropdown{
+    width: 100px;
+    cursor: pointer;
+    text-align: center;
+    font-size: larger;
+    border: 2px solid aliceblue;
+    background-color: aliceblue;
+}
+.logout{
+    width: 50%;
+    margin-left: 25.2%;
+    height: 100px;
+    background-color: aquamarine;
+    margin-top: 50px;
+    text-align: center;
+    color: #0056b3;
+    border-radius: 10px;
+}
+.logoutbtn{
+    background-color: #007bff;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px solid #007bff;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold ;
+}
+.cart{
+    color: green;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.nav-container button{
+    background-color: aliceblue;
+    border: none;
+}
+.facebook{
+    color: blue;
+    font-size: larger;
+    font-weight: bold;
+}
+.linkedin{
+    color: blue;
+    font-size: larger;
+    font-weight: bold
+}
+.github{
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+.form2{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+
+#username{
+    margin-top: 120px;
+    width: 50%;
+    height: 6%;
+   
+}
+#email1{
+    width: 50%;
+    height: 6%;
+    margin-top: 120px;
+}
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#email{
+    margin-top: 20px;
+    width: 50%;
+    height: 6%;
+}
+#password{
+    margin-top: 20px;
+    width: 50%;
+    height: 6%;
+}
+#submit{
+    margin-top: 20px;
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px ;
+    border: 2px blue solid;
+}
+.formdiv{
+    width: 50%;
+    margin-left: 27%;
+    height: 100%;
+    border-radius: 20px;
+    background-image: url(../assets/snowgif.gif);
+    background-size: 100% 100%;
+}
+.formdiv a{
+    background-color: blue;
+    color: white;
+    border: 10px blue solid;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.admin-hero{
+    width: 100%;
+    height: 600px;
+    background-image: url(../assets/admin2.gif);
+    background-size: 100% 100%;
+    color: black;
+    margin-top: 40px;
+ text-align: center;
+}
+.admin {
+    text-align: center;
+    background-color: white;
+    height: 780px;
+}
+.admin a{
+    text-decoration: none;
+    color: rebeccapurple;
+    font-size: larger;
+    font-weight: bolder;
+}
+.about{
+    text-align: center;
+    background-color: white;
+    height: 780px;
+}
+.about a{
+    text-decoration: none;
+    color: rebeccapurple;
+    font-size: larger;
+    font-weight: bolder;
+}
+.about-hero{
+    width: 100%;
+    height: 600px;
+    background-image: url(../assets/about.gif);
+    background-size: 100% 100%;
+    color: black;
+    margin-top: 40px;
+ text-align: center;
+}
+.about2{
+    text-align: center;
+    background-color: white;
+    height: 950px;
+}
+.about2 a{
+    text-decoration: none;
+    color: rebeccapurple;
+    font-size: larger;
+    font-weight: bolder;
+}
+.about2-hero{
+    width: 100%;
+    height: 600px;
+    background-image: url(../assets/about2.gif);
+    background-size: 100% 100%;
+    color: black;
+    margin-top: 40px;
+ text-align: center;
+}
+.emailform{
+    width: 100%;
+    height: 520px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+}
+#from{
+    margin-top: 20px;
+    height: 30px;
+    width: 50%;
+}
+#cartdiv{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+}
+#cartdiv button{
+    background-color: #007bff;
+    color: white;
+    border:#007bff 3px solid;
+    width: 100px;
+    cursor: pointer;
+    height: 40px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+#subject{
+    margin-top: 30px;
+    height: 30px;
+    width: 50%;
+}
+#message{
+    margin-top: 30px;
+    height: 30px;
+    width: 50%;
+}
+.emailformdiv{
+    background-image: url('../assets/contactgif2.gif');
+    background-size: 100% 100%;
+    width: 50%;
+    height: 400px;
+    border-radius: 15px;
+    margin-left: 28%;
+}
+.emailformdiv h1{
+   letter-spacing: 5px;
+   background-color: #007bff;
+    color: white;
+}
+.Product-container{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    display: flex;
+}
+.cardd-container{
+    width: 100%;
+    height: 100%;
+    background-color: #007bff;
+}
+.cardd{
+    width: 50%;
+    height: 50%;
+    background-color: aquamarine;
+    margin-left: 50%;
+}
+.nav-container span{
+    cursor: pointer;
+}
