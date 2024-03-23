@@ -13,7 +13,7 @@ function Signup(){
     const [password,setPassword] = useState()
     const handlesubmit = async (e)=>{
         e.preventDefault();
-        axios.post('http://localhost:8000/register',{username,email,password})
+        axios.post('https://ecom-app-api-faizcasms-projects.vercel.app/register',{username,email,password})
         .then(result =>{
             console.log("result",result);
             toast.success(`Welcome ${result.data.username}`, {
