@@ -14,7 +14,7 @@ function Login(){
     const Navigate = useNavigate()
     const handlesubmit = async (e)=>{
         e.preventDefault();
-        axios.post('http://localhost:8000/login',{email,password})
+        axios.post('https://ecom-app-api-faizcasms-projects.vercel.app/login',{email,password})
         .then(result =>{
             console.log("result",result)
             if(result.data=="login success"){
